@@ -1,0 +1,116 @@
+# Syntax:
+# <category|DROP>:
+# - desc: <starts|ends|contains|equals|matches> <pattern> (default starts)
+#   amt: <lt|le|gt|ge|eq|ne> <number> (default: ge 0)
+
+SKIP:
+- desc: contains Check hold release
+- desc: matches ELECTRONIC BILL.*WAS SENT.*
+- desc: matches BILLPAYER CHECK.*FOR.*WAS MAILED TO.*
+
+Utilities:
+- desc: PECO
+- desc: AQUA AMERICA
+- desc: CITIBANK
+- desc: contains Hulu
+
+Auto:
+- desc: FARMERS INS
+- desc: WAWA
+  amt: ge 30
+- desc: GEICO
+- desc: PTC EZ PASS
+- desc: SUNOCO
+  amt: ge 30
+- desc: ROYAL FARMS
+  amt: ge 30
+- desc: STS-MAVIS
+
+Savings:
+- desc: ends To Share 01
+
+Cash:
+- desc: at ATM #
+
+Shopping:
+- desc: KOHLS
+- desc: AMAZON MKTPLACE PMTS
+- desc: Amazon.com
+- desc: BJS WHOLESALE
+- desc: PRIMARK
+- desc: H&M ONLINE
+
+Credit Card Payment:
+- desc: CAPITAL ONE
+
+Taxes:
+- desc: KEYSTONE
+
+Mortgage:
+- desc: WF HOME MTG
+
+Dining Out:
+- desc: WAWA
+  amt: lt 30
+- desc: MCDONALD's
+- desc: RUCHI
+- desc: CARMINE`S PARKSIDE PIZZA
+- desc: DUNKIN
+- desc: STARBUCKS
+- desc: ROY ROGERS
+- desc: WEGMANS
+  amt: lt 30
+- desc: ROYAL FARMS
+  amt: lt 30
+- desc: CHICK-FIL-A
+- desc: PRIMO HOAGIES
+- desc: TST* NEXDINE
+- desc: WHOLEFDS
+  amt: lt 30
+
+Child Care:
+- desc: RISING SUN KARATE
+- desc: PFI*DOWNINGTOWN
+- desc: BALANCE DANCE CENTER
+- desc: MUSIC & ARTS
+
+Groceries:
+- desc: ACME
+- desc: WEIS MARKETS
+- desc: GIANT
+- desc: WHOLEFDS
+  amt: ge 30
+- desc: SWANNS PANTRY
+- desc: WEGMANS
+  amt: ge 30
+- desc: HIMALAYAN INDIAN GROCERY
+- desc: ASIAN PRODUCTS MARKET
+
+Entertainment:
+- desc: MOVIE TAVERN
+- desc: Amazon Video
+- desc: Amazon Digital Svcs
+- desc: ends STEAM GAMES
+
+Homebrewing:
+- desc: ARTISAN HOMEBREW
+- desc: MOREFLAVOR
+
+Alchohol:
+- desc: JOE BURNS
+- desc: EXTON BEVERAGE
+- desc: WINE AND SPIRITS
+- desc: LIONVILLE BEVERAGE
+- desc: RADER COMPANY
+- desc: TOTAL WINE AND MORE
+
+Healthcare:
+- desc: VILLAGE OPTICAL
+- desc: CIGNA PHARM
+
+House:
+- desc: THE HOME DEPOT
+- desc: LOWES
+
+House Cleaning:
+- desc: MAIDPRO
