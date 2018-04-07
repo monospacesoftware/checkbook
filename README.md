@@ -1,6 +1,6 @@
-### Converter and Categorizer for ClearCheckbook
+### Categorizer and Converter for ClearCheckbook
 
-Categorizes and transforms bank and credit card CSV exports to import format for ClearCheckbook
+Categorizes bank and credit transaction exports for import into ClearCheckbook.com.
 
 https://www.clearcheckbook.com/
 
