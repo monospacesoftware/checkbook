@@ -8,46 +8,51 @@ SKIP:
 - desc: matches ELECTRONIC BILL.*WAS SENT.*
 - desc: matches BILLPAYER CHECK.*FOR.*WAS MAILED TO.*
 
-Utilities:
-- desc: PECO
-- desc: AQUA AMERICA
-- desc: CITIBANK
-- desc: contains Hulu
+Alcohol:
+- desc: JOE BURNS
+- desc: EXTON BEVERAGE
+- desc: WINE AND SPIRITS
+- desc: LIONVILLE BEVERAGE
+- desc: RADER COMPANY
+- desc: TOTAL WINE AND MORE
+- desc: contains BEVERAGE
+- desc: ALS OF HAMPDEN
+- desc: contains LEVANTE
+- desc: LOCUST LANE
 
-Auto:
+Auto Care:
 - desc: FARMERS INS
-- desc: WAWA
-  amt: ge 30
 - desc: GEICO
 - desc: PTC EZ PASS
-- desc: SUNOCO
-  amt: ge 30
-- desc: ROYAL FARMS
-  amt: ge 30
-- desc: STS-MAVIS
+- desc: contains Car Pay
+- desc: ends Loan 10
+- desc: SEMACONNECT
 
-Savings:
-- desc: ends To Share 01
+Auto Maintenance:
+- desc: STS-MAVIS
+- desc: BOROUGH OF DOWNINGTOWN
 
 Cash:
 - desc: at ATM #
 
-Shopping:
-- desc: KOHLS
-- desc: AMAZON MKTPLACE PMTS
-- desc: Amazon.com
-- desc: BJS WHOLESALE
-- desc: PRIMARK
-- desc: H&M ONLINE
+Childcare:
+- desc: RISING SUN KARATE
+- desc: PFI*DOWNINGTOWN
+- desc: BALANCE DANCE CENTER
+- desc: MUSIC & ARTS
+- desc: contains 6102698460
+- desc: STAGELIGHT
+- desc: ACT*YMCA GR Brandywine
+- desc: contains ITUNES
+- desc: LIFETOUCH
+
+Child Support:
+- desc: HOME BANKINGTo COWANPAUL W 0205XXXXXX Share 04
 
 Credit Card Payment:
 - desc: CAPITAL ONE
-
-Taxes:
-- desc: KEYSTONE
-
-Mortgage:
-- desc: WF HOME MTG
+- desc: AMEX EPAYMENTTYPE
+- desc: CHASE MASTERCARDTYPE
 
 Dining Out:
 - desc: WAWA
@@ -67,12 +72,49 @@ Dining Out:
 - desc: TST* NEXDINE
 - desc: WHOLEFDS
   amt: lt 30
+- desc: Red Robin
+- desc: contains Hosss Steak
+- desc: BURGER KING
+- desc: contains RESTAURANT
+- desc: contains BEER GARDEN
+- desc: contains ARBYS
+- desc: 7-ELEVEN
+  amt: lt 30
+- desc: CALI PIZZA KITC INC #116
+- desc: EGG MANIA
+- desc: SPICE INDIAN THAI BIST
+- desc: SLY FOX BREW HOUSE
+- desc: starts SUNOCO
+  amt: lt 30
+- desc: DOMINO'S
+- desc: IRON HILL BREWERY
+- desc: MARTIN'S TRAILSIDE
+- desc: HYMIE'S DELI
+- desc: INDIAN HUT
+  
+Entertainment:
+- desc: MOVIE TAVERN
+- desc: Amazon Video
+- desc: Amazon Digital Svcs
+- desc: ends STEAM GAMES
+- desc: FLORIS
+- desc: T & N HAIR SALOON
+- desc: Amazon web services
 
-Child Care:
-- desc: RISING SUN KARATE
-- desc: PFI*DOWNINGTOWN
-- desc: BALANCE DANCE CENTER
-- desc: MUSIC & ARTS
+Gas:
+- desc: WAWA
+  amt: ge 30
+- desc: SUNOCO
+  amt: ge 30
+- desc: ROYAL FARMS
+  amt: ge 30
+- desc: SHEETZ
+  amt: ge 30
+- desc: 7-ELEVEN
+  amt: ge 30
+  
+Gifts:
+- desc: Toys R Us
 
 Groceries:
 - desc: ACME
@@ -85,32 +127,101 @@ Groceries:
   amt: ge 30
 - desc: HIMALAYAN INDIAN GROCERY
 - desc: ASIAN PRODUCTS MARKET
-
-Entertainment:
-- desc: MOVIE TAVERN
-- desc: Amazon Video
-- desc: Amazon Digital Svcs
-- desc: ends STEAM GAMES
-
-Homebrewing:
-- desc: ARTISAN HOMEBREW
-- desc: MOREFLAVOR
-
-Alchohol:
-- desc: JOE BURNS
-- desc: EXTON BEVERAGE
-- desc: WINE AND SPIRITS
-- desc: LIONVILLE BEVERAGE
-- desc: RADER COMPANY
-- desc: TOTAL WINE AND MORE
+- desc: HUNG VUONG FOOD MARKET
+- desc: BJS WHOLESALE
 
 Healthcare:
 - desc: VILLAGE OPTICAL
 - desc: CIGNA PHARM
+- desc: contains PHARMACY
+- desc: BANNER LIFE
+- desc: contains GERBER LIFE
+- desc: contains BLUEBIRDBOTANICALS
 
-House:
+Homebrewing:
+- desc: ARTISAN HOMEBREW
+- desc: MOREFLAVOR
+- desc: UPS
+- desc: CULTURED & BREWERS FRI
+- desc: PAYPAL *WORTS
+- desc: PAYPAL *BRAXTONBREW
+- desc: PAYPAL *LOWCOUNTRYL
+- desc: PAYPAL *BREWERSUNIT
+- desc: contains SAVANNAS
+
+Home Maintenance:
 - desc: THE HOME DEPOT
 - desc: LOWES
+- desc: contains HARDWARE
+- desc: contains HARBOR FREIGHT
+- desc: contains GREENHOUSE
+- desc: contains NURSERY
+- desc: contains GARDEN CENTER
+- desc: SWEETWATER NATURAL PRODU
+- desc: IN THE SWIM
 
 House Cleaning:
 - desc: MAIDPRO
+
+Lawn Care:
+- desc: Indy
+
+Rent/Mortgage:
+- desc: WF HOME MTG
+
+Savings:
+- desc: ends To Share 01
+- desc: contains UPROMISE
+
+Shopping:
+- desc: KOHLS
+- desc: AMAZON MKTPLACE PMTS
+- desc: Amazon.com
+- desc: PRIMARK
+- desc: H&M ONLINE
+- desc: PAYPALTYPE
+- desc: CHRISTMAS TREE
+- desc: RATTLE N HUM WEST
+- desc: PAYPAL *OSU PPY SH
+- desc: contains AMZ*
+- desc: PAYPAL *MONTEREYBAY
+- desc: contains STYLE ENCORE
+- desc: contains BOSCOVS
+- desc: contains DISCOUNTMAGS
+
+Student Loan:
+- desc: contains AES
+
+Taxes:
+- desc: KEYSTONE
+- desc: TAXACT
+
+Utilities:
+- desc: PECO
+- desc: AQUA AMERICA
+- desc: CITIBANK
+- desc: contains Hulu
+- desc: contains VERIZONTYPE
+- desc: contains VZWRLSS
+- desc: AmazonPrime Membership
+- desc: Netflix.com
+
+Vacation:
+- desc: QUALITY INN
+- desc: contains AMTRAK
+- desc: SINGLECUT BEERSMITHS
+- desc: GLASS HOUSE TAVERN
+- desc: MP TAVERNA ASTORIA
+- desc: MTA MVM*R515-ASTORIA DI
+- desc: DUANE READE #14388
+- desc: KILO ASTORIA
+- desc: JAKES AT THE KNICK
+- desc: ADEGA WINE AND SPIRITS
+
+
+
+
+
+
+
+
